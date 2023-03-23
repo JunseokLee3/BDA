@@ -62,5 +62,3 @@ Parts of our codes based on:
 * [shiming-chen/TransZero](https://github.com/shiming-chen/TransZero)
 ## Contact
 If you have any questions about codes, please don't hesitate to contact us by 2021126776@dgu.ac.kr
-# BDA
-# BDA
