@@ -1,5 +1,5 @@
 # BDA
-The repository includes test code related to the research paper "***BDA: Bi-directional Attention for Zero-Shot Learning.***"
+The repository includes **test code** and **train code** related to the research paper "***BDA: Bi-directional Attention for Zero-Shot Learning.***"
 ## Running Environment
 
 **BDA** is primarily implemented using Python 3.8.8 and [PyTorch](https://pytorch.org/) 1.8.0. To set up all necessary dependencies:
@@ -37,6 +37,15 @@ At this stage, execute the commands below to extract the visual features from th
 $ python preprocessing.py --dataset CUB --compression --device cuda:0
 $ python preprocessing.py --dataset SUN --compression --device cuda:0
 $ python preprocessing.py --dataset AWA2 --compression --device cuda:0
+```
+
+```
+$ python train_BDA_cub_sweep_GZSL.py   # CUB GZSL
+$ python train_BDA_cub_sweep_CZSL.py   # CUB CZSL
+$ python train_BDA_sun_sweep_GZSL.py   # SUN GZSL
+$ python train_BDA_sun_sweep_CZSL.py   # SUN CZSL
+$ python train_BDA_awa2_sweep_GZSL.py  # AWA2 GZSL
+$ python train_BDA_awa2_sweep_CZSL.py  # AWA2 CZSL
 ```
 
 ```
