@@ -60,5 +60,7 @@ Outcomes from our published models, utilizing different evaluation methods acros
 ## References
 Parts of our codes based on:
 * [shiming-chen/TransZero](https://github.com/shiming-chen/TransZero)
+* [hbdat/cvpr20_DAZLE](https://github.com/hbdat/cvpr20_DAZLE)
+* [zhangxuying1004/RSTNet](https://github.com/zhangxuying1004/RSTNet)
 ## Contact
 If you have any questions about codes, please don't hesitate to contact us by 2021126776@dgu.ac.kr
