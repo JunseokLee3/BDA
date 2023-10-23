@@ -11,7 +11,7 @@ Furthermore, we utilize [Weights & Biases](https://wandb.ai/site) (W&B) to manag
 
 ## Preparing Dataset and Model
 The model was trained on three widely-used ZSL benchmarks: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [SUN](http://cs.brown.edu/~gmpatter/sunattributes.html), and [AWA2](http://cvml.ist.ac.at/AwA2/), adhering to the [xlsa17](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip) data split. To test the **BDA**, first download these datasets along with xlsa17. Next, unzip and arrange them in the following manner.
-We also offer pre-trained models (available on [Google Drive](https://drive.google.com/drive/folders/18Hr24iSPqb1oZGs6j7XT-y-VZZo3WWyI?usp=sharing)) for three distinct datasets: CUB, SUN, and AWA2 in the CZSL/GZSL context. Download the model files and their respective datasets, then arrange them in the following way:
+We also offer pre-trained models (available on [Google Drive](https://drive.google.com/drive/folders/1-FpAlgLXTHoEyvNzyvcx6tH-R3rXrY7n?usp=sharing)) for three distinct datasets: CUB, SUN, and AWA2 in the CZSL/GZSL context. Download the model files and their respective datasets, then arrange them in the following way:
 ``` 
 . 
 ├── data 
